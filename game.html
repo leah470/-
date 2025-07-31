@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/components/alerts/#examples">
+    <title>game</title>
+</head>
+
+<body>
+    <div id="header">
+        <menu>
+            <a href="1.html"> המשחקים שלי</a>
+            <a href="game.html">המשחק</a>
+            <a href="help.html">רוצים לדעת איך לשחק</a>
+
+        </menu>
+        <div id="endGame">
+            <h1></h1>
+            <h2>המשחק הסתיים</h2>
+            <button id="playAgain"><a href="game.html">משחק חדש </a> </button>
+            <button id="exitGame"><a href="end.html"> לסיום המשחק </a> </button>
+        </div>
+        <div id="masach">
+            <div id="AAAAA">
+                <div id="timer">
+                    <button onclick="startCountdown()">התחל משחק</button>
+                    <div id="countdown">01:00</div>
+                </div>
+                <div id="ghgh">
+                    <div id="userDetails">
+                        <h4>ברוך הבא <span></span></h4>
+                        <h5> רמה: <span></span></h5>
+                    </div>
+                    <div id="points">
+                        <h3></h3>
+                    </div>
+                </div>
+            </div>
+            <div id="center">
+                <img src="./צוללות/תמונה3.png" alt="">
+                <div id="game-board"></div>
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <script src="./jquery-3.2.1.js"></script>
+        <script src="game.js"></script>
+
+</body>
+
+</html>

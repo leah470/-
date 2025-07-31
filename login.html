@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+
+    <title>Login Page</title>
+</head>
+
+<body dir="rtl" id="login">
+    <form name="login">
+        
+        <input type="text" name="userName" id="userName" pattern="[A-Za-zא-ת]+" required placeholder="שם משתמש:" required>
+        <input type="password" name="password" id="password" pattern="[\d]{1,}" required placeholder="סיסמא">
+        <input type="number" name="level" placeholder="לבחירת רמה:" required min="1" max="3" step="1">
+        <button type="submit">לכניסה</button>
+    </form>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>
